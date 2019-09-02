@@ -1,0 +1,90 @@
+
+/* project 40 calc */
+
+div {
+    width: auto;
+    margin-left:auto;
+    margin-top: 2px;
+}
+table {
+	background-color:#323669;
+    width: 100%;
+	border-radius:25px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 1px #6C6A73;
+}
+input[type="button"] {
+	border-radius: 25px;
+   
+    width: 100%;
+    padding: 10px;
+    font-size: 60px;
+    outline: none;
+    height: 90px;
+    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+input[type="text"] {
+	background-color:#999D00;
+	border-radius:25px;
+    border: none;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 70px;
+    outline: none;
+    font-weight: normal;
+    color: #555;
+	font-family:Sans-serif; 
+}
+ 
+
+.bgcolornumber {
+	
+    background-color: #f1f1f1;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+.bgclear {
+    background: #CC0000;
+    color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+}
+ 
+
+.bgopeationcolor {
+	
+    background-color: #663399;
+    color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+	
+}
+.equal {
+    background-color: #66CC33;
+    color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+	border-radius: 25px;
+}
+.bgcolornumber:hover {
+    background-color: #222;
+    color: #f5f5f5;
+    transition: all 0.3s ease-in-out;
+}
+.bgclear:hover {
+    background-color: #FF0000;
+    color: #f5f5f5;
+    transition: all 0.3s ease-in-out;
+}
+.bgoperationcolor:hover {
+    background-color: #0033CC;
+    ;
+    color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+}
+.equal:hover {
+    background-color: #66FF00;
+    transition: all 0.3s ease-in-out;
+}
+input[type="text"]:active {
+    font-size: 75px;
+}
